@@ -11034,3 +11034,8 @@ ActionView::MissingTemplate (Missing template views/hello with {:locale=>[:en], 
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (55.8ms)
+
+
+Started GET "/hello_world" for 24.46.108.174 at 2018-07-16 17:02:41 +0000
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello.html.erb within layouts/application (0.5ms)
