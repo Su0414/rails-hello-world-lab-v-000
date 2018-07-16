@@ -10956,3 +10956,19 @@ SystemStackError (stack level too deep):
   app/controllers/static_controller.rb:4:in `hello_world'
 
 
+
+
+Started GET "/hello_world" for 24.46.108.174 at 2018-07-16 16:57:58 +0000
+
+SyntaxError (/home/Su0414/rails-hello-world-lab-v-000/app/controllers/static_controller.rb:3: syntax error, unexpected tSTRING_BEG
+  def '/hello_world'
+       ^
+/home/Su0414/rails-hello-world-lab-v-000/app/controllers/static_controller.rb:7: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/static_controller.rb:3: syntax error, unexpected tSTRING_BEG
+  app/controllers/static_controller.rb:7: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.7ms)
