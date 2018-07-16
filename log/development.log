@@ -10972,3 +10972,13 @@ SyntaxError (/home/Su0414/rails-hello-world-lab-v-000/app/controllers/static_con
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.7ms)
+
+
+Started GET "/hello_world" for 24.46.108.174 at 2018-07-16 16:58:14 +0000
+Processing by StaticController#hello_world as HTML
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `hello' for #<StaticController:0x00000003b08dc8>):
+  app/controllers/static_controller.rb:4:in `hello_world'
+
+
